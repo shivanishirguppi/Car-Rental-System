@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta carset="UTF=8">
+<title>CAR RENTAL SYSTEM</title>
+</head>
+<body>
+<h1>WELCOME</h1>
+<h2>Find The Best Car As Your Comfort And Range</h2>
+<input type="Search">
+<style>
+body {    
+text-align: center;   
+background-color: white;  
+} 
+form{  
+  display: block;  
+  left: 30%;  
+  position: absolute;  
+  top: 30%;  
+} 
+ input[type=search]{  
+    border: 5px  black;  
+    box-sizing: border-box;  
+    font-size:1em;  
+    height: 2em;  
+    margin-left: 10vw;  
+    padding: .5em;  
+    transition: all 2s ease-in;  
+    width: 30vw;  
+    z-index:1;  
+    &:focus {  
+      border: solid 3px #09f;        
+      outline: solid #fc0 2000px;  
+    }  
+  }  
+</style>
+</body>
+</html>
